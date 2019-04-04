@@ -44,7 +44,7 @@
   <view class="hr"></view>
   <view class="synopsis">
     <text class="synopsis-font">剧情简介</text>
-    <text class="summary-content">{{movie.summary}}</text>
+    <text class="summary-content" selectable='true'>{{movie.summary}}</text>
   </view>
   <view class="hr"></view>
   <view class="cast">

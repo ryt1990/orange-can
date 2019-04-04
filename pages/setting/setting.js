@@ -19,13 +19,13 @@ Page({
       { iconurl: '', title: '用户登陆', tap: 'login' },
       { iconurl: '', title: '校验用户信息', tap: 'check' },
       { iconurl: '', title: '获取用户加密信息', tap: 'decrypted' },
-      { iconurl: '', title: '模板消息', tap: 'tplMessage' },
-      { iconurl: '', title: '微信支付', tap: 'wxPay' }
+      // { iconurl: '', title: '模板消息', tap: 'tplMessage' },
+      // { iconurl: '', title: '微信支付', tap: 'wxPay' }
     ],
-    others: [
-      { iconurl: '', title: 'wx:key示例', tap: 'showWxKeyDemo' },
-      { iconurl: '', title: 'scroll-view高级用法演示', tap: 'showScrollViewDemo' }
-    ],
+    // others: [
+    //   { iconurl: '', title: 'wx:key示例', tap: 'showWxKeyDemo' },
+    //   { iconurl: '', title: 'scroll-view高级用法演示', tap: 'showScrollViewDemo' }
+    // ],
     compassVal: 0,
     compassHidden: true,
     shakeInfo: {
