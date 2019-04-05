@@ -1,1 +1,7 @@
 /* pages/setting/open-api/login/login.wxss */
+.btnlogin{
+  bottom:0;
+  position:fixed;
+  width:100%;
+  border-radius:0;
+}

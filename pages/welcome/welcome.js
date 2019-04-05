@@ -1,3 +1,4 @@
+var app = getApp();
 Page({
   data: {
     //用户个人信息
@@ -24,21 +25,12 @@ Page({
  * 生命周期函数--监听页面加载
  */
   onLoad: function (options) {
-    var that = this;
-    /**
-     * 获取用户信息
-     */
-    wx.getUserInfo({
-      success: function (res) {
-        console.log(res);
-        var avatarUrl = 'userInfo.avatarUrl';
-        var nickName = 'userInfo.nickName';
-        that.setData({
-          [avatarUrl]: res.userInfo.avatarUrl,
-          [nickName]: res.userInfo.nickName,
-        })
-      }
+    var user = app.globalData.g_userInfo;
+    this.setData({
+      'userInfo.avatarUrl': user.avatarUrl,
+      'userInfo.nickName': user.nickName,
     })
+    console.log("page is onLoad")
   },
   onUnload: function (event) {
     console.log("page is unload")

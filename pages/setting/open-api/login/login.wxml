@@ -1,1 +1,1 @@
-<button open-type="getUserInfo" type="primary" bindtap="onTap">用户登陆</button>
+<button open-type="getUserInfo" type="primary" bindtap="onTap" class="btnlogin">用户登陆</button>
